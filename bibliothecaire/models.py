@@ -16,7 +16,7 @@ class Membre(models.Model):
     def a_des_emprunts_en_retard(self):
         emprunts = self.emprunt_set.filter(date_retour__isnull=True)
         for emprunt in emprunts:
-            if emprunt.date_emprunt + timedelta(weeks=1) < timezone.now():
+            if emprunt.date_emprunt + timedelta(weeks=1) < timezone.now().date():
                 return True
         return False
 

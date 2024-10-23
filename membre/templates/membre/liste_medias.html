@@ -17,13 +17,15 @@
     <tbody>
     {% for media in medias %}
     <tr>
-      <td>{{ media.id }}</td>
-      <td>{{ media.titre }}</td>
-      <td>{{ media.type }}</td>
-    </tr>
-    {% empty %}
-    <tr>
-      <td>Aucun Média disponible.</td>
+    <td>{{ media.id }}</td>
+    <td>{{ media.titre }}</td>
+    <td>
+      {% if media.disponible %}
+        Disponible
+      {% else %}
+        Indisponible
+      {% endif %}
+    </td>
     </tr>
     {% endfor %}
     </tbody>

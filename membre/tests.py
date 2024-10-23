@@ -6,8 +6,8 @@ class MembreMediaTests(TestCase):
 
     def setUp(self):
         # Crée deux médias pour les tests
-        Media.objects.create(titre="Livre 1", type_media="Livre", disponible=True)
-        Media.objects.create(titre="DVD 1", type_media="DVD", disponible=False)
+        self.media1 = Media.objects.create(titre="Livre 1", type_media="Livre", disponible=True)
+        self.media2 = Media.objects.create(titre="DVD 1", type_media="DVD", disponible=False)
 
     def test_liste_medias_membre(self):
         # Test pour s'assurer que la liste des médias s'affiche correctement pour un membre
