@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="913647df-2ba9-40c0-b0ec-acdebf9227d0" name="Changes" comment="Ajout de la page html creer_emprunt l'app bibliothecaire">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediatheque/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediatheque/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediatheque/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediatheque/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="913647df-2ba9-40c0-b0ec-acdebf9227d0" name="Changes" comment="Ajout et modification  de la page urls de l'app membre" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -31,18 +26,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kilianaBldr"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kilianaBldr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kilianaBldr/Mediatheque_Django.git",
-    "accountId": "73dca417-d0de-4703-8dba-d4d00a82c27e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kilianaBldr/Mediatheque_Django.git&quot;,
+    &quot;accountId&quot;: &quot;73dca417-d0de-4703-8dba-d4d00a82c27e&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/bibliothecaire/models.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/creer_emprunt.html" root0="SKIP_HIGHLIGHTING" />
@@ -67,7 +62,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "bibliothecaire"
+    "git-widget-placeholder": "membre"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -150,7 +145,39 @@
       <option name="project" value="LOCAL" />
       <updated>1729692818932</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ajout des url et de l'admin de l'app bibliothecaire">
+      <option name="closed" value="true" />
+      <created>1729693989959</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729693989959</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ajout de la views.py de l'app membre">
+      <option name="closed" value="true" />
+      <created>1729694386251</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729694386252</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ajout de la page urls de l'app membre">
+      <option name="closed" value="true" />
+      <created>1729694510813</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729694510813</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ajout et modification  de la page urls de l'app membre">
+      <option name="closed" value="true" />
+      <created>1729695244053</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729695244053</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,6 +189,10 @@
     <MESSAGE value="Ajout de la page html creer_membres l'app bibliothecaire" />
     <MESSAGE value="Ajout de la page html creer_media l'app bibliothecaire" />
     <MESSAGE value="Ajout de la page html creer_emprunt l'app bibliothecaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la page html creer_emprunt l'app bibliothecaire" />
+    <MESSAGE value="Ajout des url et de l'admin de l'app bibliothecaire" />
+    <MESSAGE value="Ajout de la views.py de l'app membre" />
+    <MESSAGE value="Ajout de la page urls de l'app membre" />
+    <MESSAGE value="Ajout et modification  de la page urls de l'app membre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout et modification  de la page urls de l'app membre" />
   </component>
 </project>
