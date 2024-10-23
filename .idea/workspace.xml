@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="913647df-2ba9-40c0-b0ec-acdebf9227d0" name="Changes" comment="Ajout et modification  de la page HTML liste_medias de l'app membre" />
+    <list default="true" id="913647df-2ba9-40c0-b0ec-acdebf9227d0" name="Changes" comment="Ajout et modification  de la page HTML liste_medias de l'app membre">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/mise_a_jour_membre.html" beforeDir="false" afterPath="$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/mise_a_jour_membre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediatheque/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediatheque/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +67,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "membre"
+    "git-widget-placeholder": "tests"
   }
 }]]></component>
   <component name="SharedIndexes">
