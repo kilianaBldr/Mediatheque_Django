@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="913647df-2ba9-40c0-b0ec-acdebf9227d0" name="Changes" comment="Ajout et modification  de la page HTML liste_medias de l'app membre">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/mise_a_jour_membre.html" beforeDir="false" afterPath="$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/mise_a_jour_membre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediatheque/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediatheque/settings.py" afterDir="false" />
+    <list default="true" id="913647df-2ba9-40c0-b0ec-acdebf9227d0" name="Changes" comment="Ajout des tests medias de l'app bibliothecaire">
+      <change beforePath="$PROJECT_DIR$/bibliothecaire/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/bibliothecaire/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
     <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/creer_membre.html" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/liste_medias.html" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/liste_membres.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/tests.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/bibliothecaire/urls.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/bibliothecaire/views.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/mediatheque/settings.py" root0="SKIP_HIGHLIGHTING" />
@@ -190,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729696082366</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ajout des tests medias de l'app bibliothecaire">
+      <option name="closed" value="true" />
+      <created>1729701139444</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729701139444</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,6 +214,7 @@
     <MESSAGE value="Ajout de la page urls de l'app membre" />
     <MESSAGE value="Ajout et modification  de la page urls de l'app membre" />
     <MESSAGE value="Ajout et modification  de la page HTML liste_medias de l'app membre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout et modification  de la page HTML liste_medias de l'app membre" />
+    <MESSAGE value="Ajout des tests medias de l'app bibliothecaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des tests medias de l'app bibliothecaire" />
   </component>
 </project>
