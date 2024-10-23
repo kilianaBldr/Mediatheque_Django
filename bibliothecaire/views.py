@@ -3,6 +3,8 @@ from django.core.exceptions import ValidationError
 from django.contrib import messages
 from .models import Membre, Media, Emprunt
 from .forms import MembreForm, MediaForm
+from django.utils import timezone
+
 
 def liste_membres(request):
     membres = Membre.objects.all()

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
     <meta charset="UTF-8">
     <title>Modifier le Membre</title>
@@ -9,8 +9,8 @@
   <form method="POST">
     {% csrf_token %}
     {{ form.as_p }}
-    <button type="submit">Mettre a jour</button>
+    <button type="submit">Mettre à jour</button>
   </form>
-  <a href="{% url 'liste_membres' }%">Retour à la liste des membres</a>
+  <a href="{% url 'liste_membres' %}">Retour à la liste des membres</a>
 </body>
 </html>
