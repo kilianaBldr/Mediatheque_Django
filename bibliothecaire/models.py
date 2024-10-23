@@ -7,6 +7,7 @@ class Membre(models.Model):
     nom = models.CharField(max_length=100)
     prenom = models.CharField(max_length=100)
     email = models.EmailField(unique=True)
+    telephone = models.CharField(max_length=15)
     date_inscription = models.DateField(auto_now_add=True)
 
     def __str__(self):
