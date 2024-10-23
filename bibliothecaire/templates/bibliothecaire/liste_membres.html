@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des membres</title>
+</head>
+<body>
+    <h1>Liste des membres</h1>
+    <ul>
+        {% for membre in membres %}
+            <li>{{ membre.nom }} {{ membre.prenom }} - <a href="{% url 'mise_a_jour_membre' membre.id %}">Modifier</a></li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'creer_membre' %}">Ajouter un membre</a>
+</body>
+</html>
