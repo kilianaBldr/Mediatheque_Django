@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des Médias</title>
+</head>
+<body>
+  <h1>Liste des Médias</h1>
+  <ul>
+    {% for media in medias %}
+    <li>{{ media.titre }} ({{ media.type_media }}) - Disponible: {{ media.disponible }}</li>
+    {% endfor %}
+  </ul>
+  <a href="{% url 'creer_media' %}">Ajouter un média</a>
+</body>
+</html>

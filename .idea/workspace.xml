@@ -4,29 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="913647df-2ba9-40c0-b0ec-acdebf9227d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Mediatheque_Django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="913647df-2ba9-40c0-b0ec-acdebf9227d0" name="Changes" comment="Ajout de la page html creer_emprunt l'app bibliothecaire">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediatheque/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediatheque/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediatheque/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediatheque/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kilianaBldr"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/kilianaBldr/Mediatheque_Django.git",
     "accountId": "73dca417-d0de-4703-8dba-d4d00a82c27e"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/models.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/creer_emprunt.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/creer_media.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/creer_membre.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/liste_medias.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/liste_membres.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/urls.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bibliothecaire/views.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mediatheque/settings.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -36,12 +63,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "bibliothecaire"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -58,6 +86,82 @@
       <option name="presentableId" value="Default" />
       <updated>1729681162696</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ajout models.py de l'app bibliothecaire">
+      <option name="closed" value="true" />
+      <created>1729682619281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729682619281</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ajout forms.py de l'app bibliothecaire">
+      <option name="closed" value="true" />
+      <created>1729682985966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729682985966</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajout de views.py de l'app bibliothecaire">
+      <option name="closed" value="true" />
+      <created>1729691418198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729691418198</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ajout de la page html liste_membres l'app bibliothecaire">
+      <option name="closed" value="true" />
+      <created>1729691752367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729691752367</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ajout de la page html liste_medias l'app bibliothecaire">
+      <option name="closed" value="true" />
+      <created>1729692011359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729692011359</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ajout de la page html creer_membres l'app bibliothecaire">
+      <option name="closed" value="true" />
+      <created>1729692264708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729692264708</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ajout de la page html creer_media l'app bibliothecaire">
+      <option name="closed" value="true" />
+      <created>1729692621355</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729692621355</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ajout de la page html creer_emprunt l'app bibliothecaire">
+      <option name="closed" value="true" />
+      <created>1729692818932</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729692818932</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout models.py de l'app bibliothecaire" />
+    <MESSAGE value="Ajout forms.py de l'app bibliothecaire" />
+    <MESSAGE value="Ajout de views.py de l'app bibliothecaire" />
+    <MESSAGE value="Ajout de la page html liste_membres l'app bibliothecaire" />
+    <MESSAGE value="Ajout de la page html liste_medias l'app bibliothecaire" />
+    <MESSAGE value="Ajout de la page html creer_membres l'app bibliothecaire" />
+    <MESSAGE value="Ajout de la page html creer_media l'app bibliothecaire" />
+    <MESSAGE value="Ajout de la page html creer_emprunt l'app bibliothecaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la page html creer_emprunt l'app bibliothecaire" />
   </component>
 </project>
