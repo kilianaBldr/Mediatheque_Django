@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="913647df-2ba9-40c0-b0ec-acdebf9227d0" name="Changes" comment="Ajout de la page urls de l'app membre">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/membre/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/membre/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/membre/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/membre/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="913647df-2ba9-40c0-b0ec-acdebf9227d0" name="Changes" comment="Ajout et modification  de la page urls de l'app membre" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729694510813</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ajout et modification  de la page urls de l'app membre">
+      <option name="closed" value="true" />
+      <created>1729695244053</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729695244053</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,6 +192,7 @@
     <MESSAGE value="Ajout des url et de l'admin de l'app bibliothecaire" />
     <MESSAGE value="Ajout de la views.py de l'app membre" />
     <MESSAGE value="Ajout de la page urls de l'app membre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la page urls de l'app membre" />
+    <MESSAGE value="Ajout et modification  de la page urls de l'app membre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout et modification  de la page urls de l'app membre" />
   </component>
 </project>
