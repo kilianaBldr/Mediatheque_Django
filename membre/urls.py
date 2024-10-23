@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views
+from .views import liste_medias
 
 urlpatterns = [
-    path('', views.liste_medias, name='liste_medias'),
+    path('', liste_medias, name='liste_medias_membre'),
 ]
