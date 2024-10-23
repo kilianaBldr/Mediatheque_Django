@@ -5,7 +5,7 @@
     <title>Liste des membres</title>
 </head>
 <body>
-    <h1>Liste des membres</h1>
+    <h1>Liste des Membres</h1>
     <ul>
         {% for membre in membres %}
             <li>{{ membre.nom }} {{ membre.prenom }} - <a href="{% url 'mise_a_jour_membre' membre.id %}">Modifier</a></li>
