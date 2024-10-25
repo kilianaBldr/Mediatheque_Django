@@ -6,7 +6,7 @@ from datetime import timedelta
 class Membre(models.Model):
     nom = models.CharField(max_length=100)
     prenom = models.CharField(max_length=100)
-    email = models.EmailField(unique=True)
+    email = models.EmailField(max_length=100, unique=True)
     telephone = models.CharField(max_length=15)
     date_inscription = models.DateField(auto_now_add=True)
 
