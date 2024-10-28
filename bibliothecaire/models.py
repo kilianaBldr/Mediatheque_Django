@@ -32,10 +32,17 @@ class Media(models.Model):
     ]
     titre = models.CharField(max_length=200)
     type_media = models.CharField(max_length=50, choices=TYPE_CHOICES)
+    auteur = models.CharField(max_length=100, blank=True, null=True)  # Auteur pour livres
+    realisateur = models.CharField(max_length=100, blank=True, null=True)  # Réalisateur pour DVDs
+    artiste = models.CharField(max_length=100, blank=True, null=True)  # Artiste pour CDs
+    fabricant = models.CharField(max_length=100, blank=True, null=True)  # Fabricant pour jeux de plateau
     disponible = models.BooleanField(default=True)
 
     def __str__(self):
-        return self.titre
+        return f"{self.title} ({self.media_type})"
+
+    def is_disponible(self):
+        return self.disponible
 
 class Emprunt(models.Model):
     media = models.ForeignKey(Media, on_delete=models.CASCADE)
