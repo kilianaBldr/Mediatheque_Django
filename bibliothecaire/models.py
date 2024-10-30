@@ -1,7 +1,7 @@
 from django.db import models
 from django.core.exceptions import ValidationError
 from django.utils import timezone
-from datetime import timedelta
+from datetime import timedelta, date
 
 class Membre(models.Model):
     nom = models.CharField(max_length=100)
@@ -9,6 +9,7 @@ class Membre(models.Model):
     email = models.EmailField(max_length=100, unique=True)
     telephone = models.CharField(max_length=15)
     date_inscription = models.DateField(auto_now_add=True)
+
 
     def __str__(self):
         return f"{self.prenom} {self.nom}"
@@ -23,6 +24,7 @@ class Membre(models.Model):
     def nombre_emprunts_actifs(self):
         return self.emprunt_set.filter(date_retour__isnull=True).count()
 
+
 class Media(models.Model):
     TYPE_CHOICES = [
         ('Livre', 'Livre'),
@@ -35,7 +37,7 @@ class Media(models.Model):
     auteur = models.CharField(max_length=100, blank=True, null=True)  # Auteur pour livres
     realisateur = models.CharField(max_length=100, blank=True, null=True)  # Réalisateur pour DVDs
     artiste = models.CharField(max_length=100, blank=True, null=True)  # Artiste pour CDs
-    fabricant = models.CharField(max_length=100, blank=True, null=True)  # Fabricant pour jeux de plateau
+    createur = models.CharField(max_length=100, blank=True, null=True)  # createur pour jeux de plateau
     disponible = models.BooleanField(default=True)
 
     def __str__(self):
@@ -49,6 +51,7 @@ class Emprunt(models.Model):
     membre = models.ForeignKey(Membre, on_delete=models.CASCADE)
     date_emprunt = models.DateField(auto_now_add=True)
     date_retour = models.DateField(null=True, blank=True)
+    bloque = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.media.titre} emprunté par {self.membre.prenom} {self.membre.nom}"

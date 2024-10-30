@@ -11,7 +11,7 @@ class MembreForm(forms.ModelForm):
 class MediaForm(forms.ModelForm):
     class Meta:
         model = Media
-        fields = ['titre', 'type_media', 'auteur', 'realisateur', 'artiste', 'fabricant', 'disponible']
+        fields = ['titre', 'type_media', 'auteur', 'realisateur', 'artiste', 'createur', 'disponible']
 
     def clean(self):
         cleaned_data = super().clean()
@@ -24,7 +24,7 @@ class MediaForm(forms.ModelForm):
             self.add_error('realisateur', "Le réalisateur est requis pour un DVD.")
         elif type_media == 'cd' and not cleaned_data.get('artiste'):
             self.add_error('artiste', "L'artiste est requis pour un CD.")
-        elif media_type == 'jeu' and not cleaned_data.get('fabricant'):
-            self.add_error('fabricant', "Le fabricant est requis pour un jeu de plateau.")
+        elif media_type == 'jeu' and not cleaned_data.get('createur'):
+            self.add_error('createur', "Le Créateur est requis pour un jeu de plateau.")
 
         return cleaned_data

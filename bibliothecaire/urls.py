@@ -4,10 +4,10 @@ from .views import liste_membres, creer_membre, mise_a_jour_membre, liste_medias
 
 urlpatterns = [
     path('membres/', liste_membres, name='liste_membres'),
-    path('membres/creer/', creer_membre, name='creer_membre'),
+    path('creer_membre/', creer_membre, name='creer_membre'),
     path('membres/<int:id>/modifier/', mise_a_jour_membre, name='mise_a_jour_membre'),
     path('medias/', liste_medias, name='liste_medias'),
-    path('medias/creer/', creer_media, name='creer_media'),
+    path('creer_medias', creer_media, name='creer_media'),
     path('medias/<int:media_id>/emprunter/', creer_emprunt, name='creer_emprunt'),
     path('emprunts/<int:emprunt_id>/retourner/', retourner_emprunt, name='retourner_emprunt'),
 ]

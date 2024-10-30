@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="913647df-2ba9-40c0-b0ec-acdebf9227d0" name="Changes" comment="workspace">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bibliothecaire/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/bibliothecaire/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bibliothecaire/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bibliothecaire/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/creer_emprunt.html" beforeDir="false" afterPath="$PROJECT_DIR$/bibliothecaire/templates/bibliothecaire/creer_emprunt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bibliothecaire/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bibliothecaire/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/membre/templates/membre/liste_medias.html" beforeDir="false" afterPath="$PROJECT_DIR$/membre/templates/membre/liste_medias.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +72,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging media"
+    "git-widget-placeholder": "media"
   }
 }]]></component>
   <component name="SharedIndexes">
