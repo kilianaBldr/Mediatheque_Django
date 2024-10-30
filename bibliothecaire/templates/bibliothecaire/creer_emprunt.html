@@ -7,12 +7,11 @@
 <body>
   <h1>Emprunter {{ media.titre }}</h1>
   {% if messages %}
-  <ul>
-    {% for message in messages %}
-    <li>{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-    {% endfor %}
+  <ul> {% for message in messages %}
+    <li class="{% if message.tags %} {{ message.tags }} {% endif %}"> {{ message }} </li> {% endfor %}
   </ul>
   {% endif %}
+
   <form method="post">
     {% csrf_token %}
     <label for="membre">Sélectionner un membre :</label>

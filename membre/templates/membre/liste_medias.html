@@ -12,23 +12,37 @@
       <th>ID</th>
       <th>Titre</th>
       <th>Type</th>
+      <th>Disponible</th>
     </tr>
     </thead>
-    <tbody>
-    {% for media in medias %}
-    <tr>
-    <td>{{ media.id }}</td>
-    <td>{{ media.titre }}</td>
-    <td>
-      {% if media.disponible %}
-        Disponible
-      {% else %}
-        Indisponible
-      {% endif %}
-    </td>
-    </tr>
-    {% endfor %}
-    </tbody>
+     <tbody>
+            {% for media in medias %}
+                <tr>
+                    <td>{{ media.id }}</td>
+                    <td>{{ media.titre }}</td>
+                    <td>
+                        {% if media.type_media == 'Livre' %}
+                            Livre
+                        {% elif media.type_media == 'CD' %}
+                            CD
+                        {% elif media.type_media == 'DVD' %}
+                            DVD
+                        {% elif media.type_media == 'Jeu' %}
+                            Jeu de Plateau
+                        {% else %}
+                            Inconnu
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if media.disponible %}
+                            Oui
+                        {% else %}
+                            Non
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
   </table>
 </body>
 </html>
